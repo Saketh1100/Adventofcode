@@ -21,11 +21,11 @@ int main()
 
     sort(v.begin(),v.end());
     
-    int j=v.size();
+    int j=v.size()-1;
     int i=0;
     
 
-     while(true)
+     while(i<j)
    {
        if(v[i]+v[j]==2020)
        {
