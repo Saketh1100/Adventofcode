@@ -46,9 +46,9 @@ int main()
     int t4 = tree(v, 7, 1);
     int t5 = tree(v, 1, 2);
     //PART1
-    cout<<t1<<endl<<t2<<endl<<t3<<endl<<t4<<endl<<t5<<endl;
+    cout<<t2<<endl;
     //PART2
-    cout<<(t1*t2*t3*t4*t5)<<endl;
+    cout<<(t1*t2*t3*t4*t5)<<endl;//multiply all the values
     
     return 0;
 }
